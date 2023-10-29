@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de Notas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="programa.js"></script>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+</head>
+<body>
+       <br>
+       <br>
+
+       <center>
+       <h1>Sistema de notas</h1>
+       
+     <form action="mailto:cesarrzavala382@gmail.com" method="post" enctype="text/plain">
+
+      <div id="contenedor">
+
+     
+        <div id="caja1">
+          <center><h3>Periodo 1</h3></center>
+          <p>Exa.:
+            <input type="text" name="" id="l1" value="0" maxlength="2" ></p>
+          <p> Exp.:
+            <input type="text" name="" id="e1" value="0" maxlength="2"></p>
+ 
+          <p>Doc. I:
+            <input type="text" name="" id="d1" value="0" maxlength="2"></p>
+ 
+          <p>Doc. P:
+            <input type="text" name="" id="p1" value="0"maxlength="2"></p>
+ 
+          <p>CoevA.:
+            <input type="text" name="" id="c1" value="0"maxlength="2"></p>
+ 
+          <p>AutoE.:
+            <input type="text" name="" id="a1" value="0"maxlength="2"></p>
+      
+          <p id="pro1"> Promedio: 0  </p>
+        </div>
+ 
+         <div id="caja2">
+           <center><h3>Periodo 2</h3></center>
+           <p>Exa.:
+             <input type="text" name="" id="l2" value="0"maxlength="2"></p>
+           <p>Exp.:
+             <input type="text" name="" id="e2" value="0"maxlength="2"></p>
+  
+           <p>Doc. I:
+             <input type="text" name="" id="d2" value="0"maxlength="2"></p>
+  
+           <p>Doc. P:
+             <input type="text" name="" id="p2" value="0"maxlength="2"></p>
+  
+           <p>CoevA.:
+             <input type="text" name="" id="c2" value="0"maxlength="2"></p>
+  
+           <p>AutoE.:
+             <input type="text" name="" id="a2" value="0"maxlength="2"></p>
+ 
+           <p id="pro2">Promedio: 0</p>
+         </div>
+           
+         <div id="caja3">
+           <center><h3>Periodo 3</h3></center>
+           <p>Exa.:
+             <input type="text" name="" id="l3" value="0"maxlength="2"></p>
+           <p> Exp.:
+             <input type="text" name="" id="e3" value="0"maxlength="2"></p>
+  
+           <p>Doc. I:
+             <input type="text" name="" id="d3" value="0"maxlength="2"></p>
+  
+           <p>Doc. P:
+             <input type="text" name="" id="p3" value="0"maxlength="2"></p>
+  
+           <p>CoevA.:
+             <input type="text" name="" id="c3" value="0"maxlength="2"></p>
+  
+           <p>AutoE.:
+             <input type="text" name="" id="a3" value="0"></p>
+            <p id="pro3">Promedio: 0</p>
+         </div>
+         
+         <div id="caja4">
+           <center><h3>Periodo 4</h3></center>
+           <p>Exa.:
+             <input type="text" name="" id="l4" value="0"maxlength="2"></p>
+           <p> Exp.:
+             <input type="text" name="" id="e4" value="0"maxlength="2"></p>
+  
+           <p>Doc. I:
+             <input type="text" name="" id="d4" value="0"maxlength="2"></p>
+  
+           <p>Doc. P:
+             <input type="text" name="" id="p4" value="0"maxlength="2"></p>
+  
+           <p>CoevA.:
+             <input type="text" name="" id="c4" value="0"maxlength="2"></p>
+  
+           <p>AutoE.:
+             <input type="text" name="" id="a4" value="0"maxlength="2"></p>
+           <p id="pro4">Promedio: 0</p>
+         </div>
+
+      </div>
+        
+        <div id="caja5">
+        <br>
+          <div  class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label" id="pro6">Nombre:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="" name="nombre">
+          </div>
+            <br>
+          <div class="mb-3">
+        
+           <label for="exampleFormControlInput1" class="form-label" id="pro6">NIE...:</label>
+           <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="" maxlength="7" name="nie">
+          </div>
+
+          <center><p id="pro5">Promedio Global: 0</p></center>
+   
+          <center>
+          <div id="button" onclick="mensaje()"> <center>Resultado</center></div>
+         <input type="submit" id="buttoon" value="Enviar">
+         <br>
+         
+         <input id="button-borrar" type="reset" value="Borrar"></center>
+         <br>
+        </div>
+      </div>     
+    </form>
+</body>
+</html>
